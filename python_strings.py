@@ -50,13 +50,16 @@ current_year = 2022
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
 #       - tab last name current year
-escape_example = "{}\'s birth year is {}"
-print(escape_example.format(my_first_name,my_year_of_birth))
-escape_example_two = "\t {} {}"
-print(escape_example_two.format(my_last_name,current_year))
+## escape_example = "{}\'s birth year is {}"
+## print(escape_example.format(my_first_name,my_year_of_birth))
+## escape_example_two = "\t {} {}"
+## print(escape_example_two.format(my_last_name,current_year))
 
 # TODO String methods
 #   - Print the following items (one per line) (print using variables)
 #       - first name and last name in lower case
 #       - length of last name
 #       - first name and last name all in upper case
+print (my_first_name.casefold(), my_last_name.casefold())
+print (len(my_last_name))
+print (my_first_name.upper(), my_last_name.upper())
