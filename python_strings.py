@@ -34,10 +34,8 @@ print (my_last_name[-3:-1])
 #   - Print the following items (one per line) (print using variables)
 #       -first name and last name combined
 #       -first name six times
-
-
-
-
+print (my_first_name, my_last_name)
+print (my_first_name, '\n' * 6)
 
 # TODO Formatting Strings
 #   - Print the following items (one per line) (print using variables)
